@@ -1,83 +1,81 @@
 body {
-    background-color: skyblue;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  }
-  
-  #bar {
-    text-align: center;
-    color: white;
-    background-color: #7c7c7c;
-    padding: 5px;
-    font-family: "Courier New", Courier, monospace;
-    clear: both;
-  }
-  
-  #main-nav {
-    background-color: brown;
-    text-align: center;
-  }
-  
-  a {
-    color: antiquewhite;
-    text-decoration: none;
-  }
-  
-  #main-nav li {
-    display: inline-block;
-    position: relative;
-  }
-  
-  #main-nav li:hover {
-    background-color: #7c7c7c;
-    color: white;
-  }
-  
-  
-  #main-nav ul li {
-    list-style-type: none;
-    text-align: center;
-    padding: 10px;
-  }
-  
-  .content-area {
-    width: 70%;
-    float: left;
-    margin: 0;
-  }
-  
-  .content-box {
-    background-color: aliceblue;
-    color: black;
-    border: 2px solid black;
-    padding: 5px;
-    border-radius: 15px;
-    margin: 5px;
-  }
-  
-  #name:focus {
-    width: 200px;
-  }
-  
-  #sidebar {
-    text-align: center;
-    background-color: coral;
-    float: right;
-    width: 25%;
-    margin-right: 10px;
-    border: 2px solid black;
-    border-radius: 15px;
-    padding: 5px;
-  }
-  
-  #sidebar:hover {
-    background-color: brown;
-  }
-  
-  .main-container {
-    width: 100%;
-    height: 100%;
-    margin-bottom: 5px;
-    padding: 5px;
-  }
-  
-  
+  background-color: darkseagreen;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.header-footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin: 5px;
+  padding: 5px;
+  font-family: "Courier New", Courier, monospace;
+  clear: both;
+}
+
+#main-nav {
+  background-color: brown;
+  text-align: center;
+}
+
+a {
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+#main-nav li {
+  display: inline-block;
+  position: relative;
+}
+
+#main-nav li:hover {
+  background-color: gray;
+  color: white;
+}
+
+#main-nav ul li {
+  list-style-type: none;
+  text-align: center;
+  padding: 10px;
+}
+
+.content-area {
+  width: 70%;
+  float: left;
+  margin: 0;
+}
+
+.content-box {
+  background-color: aliceblue;
+  color: black;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+#name:focus {
+  width: 200px;
+}
+
+#sidebar {
+  text-align: center;
+  background-color: coral;
+  float: right;
+  width: 25%;
+  margin-right: 10px;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+#sidebar:hover {
+  background-color: brown;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 5px;
+  padding: 5px;
+}
